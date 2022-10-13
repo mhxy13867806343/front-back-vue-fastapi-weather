@@ -1,16 +1,41 @@
 {
+  "easycom": {
+    "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue",
+    "gui-(.*)": "@/GraceUI5/components/gui-$1.vue"
+  },
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "天气地区",
+				"navigationStyle":"custom",
+				"enablePullDownRefresh" : false,
+				"h5" : {
+					"titleNView":false
+				}
 			}
 		}
+            ,{
+                "path" : "pages/details/details",
+                "style" :
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+            }
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
+		"navigationBarTitleText": "天气地区",
 		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	}
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+  "tabBar":{
+    "list":[{
+      "pagePath":"pages/index/index"
+
+    }
+    ]
+  }
 }

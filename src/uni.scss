@@ -39,38 +39,225 @@ $uni-border-color:#c8c7cc;
 /* 尺寸变量 */
 
 /* 文字尺寸 */
-$uni-font-size-sm:24upx;
-$uni-font-size-base:28upx;
-$uni-font-size-lg:32upx;
+$uni-font-size-sm:24rpx;
+$uni-font-size-base:28rpx;
+$uni-font-size-lg:32rpx;
 
 /* 图片尺寸 */
-$uni-img-size-sm:40upx;
-$uni-img-size-base:52upx;
-$uni-img-size-lg:80upx;
+$uni-img-size-sm:40rpx;
+$uni-img-size-base:52rpx;
+$uni-img-size-lg:80rpx;
 
 /* Border Radius */
-$uni-border-radius-sm: 4upx;
-$uni-border-radius-base: 6upx;
-$uni-border-radius-lg: 12upx;
+$uni-border-radius-sm: 4rpx;
+$uni-border-radius-base: 6rpx;
+$uni-border-radius-lg: 12rpx;
 $uni-border-radius-circle: 50%;
 
 /* 水平间距 */
 $uni-spacing-row-sm: 10px;
-$uni-spacing-row-base: 20upx;
-$uni-spacing-row-lg: 30upx;
+$uni-spacing-row-base: 20rpx;
+$uni-spacing-row-lg: 30rpx;
 
 /* 垂直间距 */
-$uni-spacing-col-sm: 8upx;
-$uni-spacing-col-base: 16upx;
-$uni-spacing-col-lg: 24upx;
+$uni-spacing-col-sm: 8rpx;
+$uni-spacing-col-base: 16rpx;
+$uni-spacing-col-lg: 24rpx;
 
 /* 透明度 */
 $uni-opacity-disabled: 0.3; // 组件禁用态的透明度
 
 /* 文章场景相关 */
 $uni-color-title: #2C405A; // 文章标题颜色
-$uni-font-size-title:40upx;
+$uni-font-size-title:40rpx;
 $uni-color-subtitle: #555555; // 二级标题颜色
-$uni-font-size-subtitle:36upx;
+$uni-font-size-subtitle:36rpx;
 $uni-color-paragraph: #3F536E; // 文章段落颜色
-$uni-font-size-paragraph:30upx;
+$uni-font-size-paragraph:30rpx;
+
+/* 页面左右间距 */
+$page-row-spacing: 30upx;
+$page-color-base: #f8f8f8;
+$page-color-light: #f8f6fc;
+$base-color: #54b85d;
+$base-color-F3F3F3: #F3F3F3;
+
+
+$background-color:#f5f5f5;
+$background-d6s:#d6d6d6;
+
+/* 文字尺寸 */
+$font-ssm: 20upx;
+$font-sm: 24upx;
+$font-base: 28upx;
+$font-lg: 32upx;
+$font-llg: 40upx;
+/*文字颜色*/
+$font-color-dark: #303133;
+$font-color-white: #fff;
+$font-color-base: #606266;
+$font-color-light: #909399;
+$font-color-disabled: #C0C4CC;
+$font-color-spec: #4399fc;
+$font-color-emphasis: #54b85d;
+$font-color-warning: #ff5500;
+$font-color-FC6600: #FC6600;
+/* 边框颜色 */
+$border-color-dark: #DCDFE6;
+$border-color-base: #E4E7ED;
+$border-color-light: #EBEEF5;
+/* 图片加载中颜色 */
+$image-bg-color: #eee;
+/* 行为相关颜色 */
+$uni-color-primary:#54b85d;
+$uni-color-success: #4cd964;
+$uni-color-warning: #f0ad4e;
+$uni-color-error: #dd524d;
+/* 按钮高亮颜色 */
+$btn-color-light:#54b85d;
+$btn-color-spec:#007aff;
+
+$status3f8fee:#3f8fee; //可预约
+$statusffa800:#ffa800; //进行中
+$statusec0000:#ec0000; //预约已截止
+$statusecff700:#ff4700; //活动已截止
+$statusec8B008B:#8B008B; //未开始
+$f00:#f00;
+//有关背景样式
+$transparent:transparent;
+$background-color-006be7: #006be7;
+//基本颜色样式
+
+$color2222:#222;
+$color1BA1FF:#1BA1FF;
+$colorccc:#ccc;
+$colorfff:#fff;
+$color666:#666;
+$colorc6c6c6:#c6c6c6;
+$colorcffb122:#ffb122;
+$colorc006be8:#006be8;
+$color222:#222;
+$color333:#333;
+$color186fff:#186fff;
+$color323233:#323233;
+$color969799:#969799;
+$colorf7f7f7:#f7f7f7;
+$color000:#000;
+$color888:#888;
+$colorff5f5f:#ff5f5f;
+$colorff6850:#ff6850;
+$color8f8f94:#8f8f94;
+$colora4a4a4:#a4a4a4;
+$colorff8e50:#ff8e50;
+//基本边框倒角样式
+$border-radius30:30rpx;
+$border-radius22:22rpx;
+$border-radius10:10rpx;
+$border-radius8:8rpx;
+$border-radius6:6rpx;
+$border-radius4:4rpx;
+$border-radius2:2rpx;
+$border-radius1:1rpx;
+
+
+//边框百分比
+$border-radius50s:50%;
+
+
+//基本行内，块级样式
+$text-align:center;
+$text-align-right:right;
+$inline-flex:inline-flex;
+$flex:flex;
+$space-between:space-between;
+$align-items:center;
+$justify-content:center;
+$flex-start:flex-start;
+$flex-row:row;
+$flex-column:column;
+$flex-wrap-wrap:wrap;
+$flex-flex-end:flex-end;
+$flex-space-around:space-around;
+//基本字体样式
+
+$font-weightBold: bold;
+$font-weight600: 600;
+$font-weight500: 500;
+$font-weight400: 400;
+$font-weightnormal: normal;
+$font-familyPingFang: PingFang;
+$font-familyPingFangsg: PingFang SC;
+
+$f20:20rpx;
+$f22:22rpx;
+$f24:24rpx;
+$f26:26rpx;
+$f28:28rpx;
+$f30:30rpx;
+$f32:32rpx;
+$f34:34rpx;
+$f36:36rpx;
+$f38:38rpx;
+$f40:40rpx;
+
+$nowrap: nowrap;
+
+$center:center;
+
+//基本定位样式
+
+$relative:relative;
+$fixed:fixed;
+$absolute:absolute;
+
+
+$top50: 50%;
+$left50: 50%;
+$left0:0;
+$top0:0;
+$right0:0;
+$bottom0:0;
+$transform50: translate(-50%, -50%);
+
+//基本可重复样式
+$i:9;
+@while $i>0{
+  .font-weight-#{$i*100}{
+    font-weight: $i*100;
+  }
+  $i: $i - 1;
+}
+
+//基本其他样式
+
+$rgba06:rgba(241, 247, 254, 0.6);
+//基本大小样式
+
+$width100:100%;
+$height100:100%;
+
+// 换行方式
+$white-space-nowrap:nowrap;
+
+//透明度
+$opacity1:1;
+$opacity05:0.5;
+$opacity0:0;
+
+//隐藏
+$overflow-hidden:hidden;
+$display-block:block;
+$display-inline-block:inline-block;
+$middle:middle;
+
+
+//层级
+$zindex10:10;
+$zindex1:1;
+$zindex2:2;
+$zindex3:3;
+
+//其他
+$border-box:border-box;
+
+@import 'uview-ui/theme.scss';

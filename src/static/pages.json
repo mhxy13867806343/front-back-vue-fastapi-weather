@@ -1,0 +1,698 @@
+{
+  "easycom": {
+    "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "群团集市",
+        "navigationStyle":"custom",
+        "enablePullDownRefresh" : false,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+    },
+    {
+      "path": "pages/myCenter/myCenter",
+      "style": {
+        "navigationBarTitleText": "个人中心",
+        "h5" : {
+          "titleNView":false
+        }
+        
+      }
+    }
+  ,{
+      "path" : "pages/quntuanListPage/quntuanListPage",
+      "style" :
+      {
+        "navigationBarTitleText": "群团列表" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/quntuanDetailPage/quntuanDetailPage",
+      "style" :
+      {
+        "navigationBarTitleText": "群团详情" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    },
+    {
+      "path": "pages/team/team",
+      "style": {
+        "navigationBarTitleText": "维权帮扶",
+        "h5" : {
+          "titleNView":false
+        }
+      }
+    }
+  ,{
+      "path" : "pages/chooseInterests/chooseInterests",
+      "style" :
+      {
+        "navigationBarTitleText": "选择兴趣",
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/interestActivity/interestActivity",
+      "style" :
+      {
+        "navigationBarTitleText": "活动集市",
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/classVideoListPage/classVideoListPage",
+      "style" :
+      {
+        "navigationBarTitleText": "视频列表",
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/personalInfor/personalInfor",
+      "style" :
+      {
+        "navigationBarTitleText": "个人信息" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/login/login",
+      "style" :
+      {
+        "navigationBarTitleText": "登录" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    },
+    {
+      "path" : "pages/register/register",
+      "style" :
+      {
+        "navigationBarTitleText": "注册",
+        "enablePullDownRefresh": false,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/ForgetThePassword/ForgetThePassword",
+      "style" :
+      {
+        "navigationBarTitleText": "忘记密码",
+        "enablePullDownRefresh": false,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/aboutUs/aboutUs",
+      "style" :
+      {
+        "navigationBarTitleText": "关于我们" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/mySuggestion/mySuggestion",
+      "style" :
+      {
+        "navigationBarTitleText": "我的参与" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/myInviteTeachers/myInviteTeachers",
+      "style" :
+      {
+        "navigationBarTitleText": "我的名师邀请" ,
+        "backgroundColor":"#efeff4",
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/makeFriends/makeFriends",
+      "style" :
+      {
+        "navigationBarTitleText": "活动预约",
+        "enablePullDownRefresh": false,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+    }
+  ,{
+      "path" : "pages/updatepwd/updatepwd",
+      "style" :
+      {
+        "navigationBarTitleText": "修改密码",
+        "enablePullDownRefresh": false,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+    }
+  ,{
+      "path" : "pages/positionMarket/positionMarket",
+      "style" :
+      {
+        "navigationBarTitleText": "阵地集市",
+        "enablePullDownRefresh": false,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+    }
+  ,{
+      "path" : "pages/LearningRecord/LearningRecord",
+      "style" :
+      {
+        "navigationBarTitleText": "学习记录",
+        "enablePullDownRefresh": false,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+    }
+  ,{
+      "path" : "pages/ElegantDemeanour/ElegantDemeanour",
+      "style" :
+      {
+        "navigationBarTitleText": "风采展示" ,
+        "enablePullDownRefresh": true,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/search/search",
+      "style" :
+      {
+        "navigationBarTitleText": "你呼我应" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    },
+    {
+      "path" : "pages/goodteachers/goodteachers",
+      "style" :
+      {
+        "navigationBarTitleText": "优秀教师",
+        "enablePullDownRefresh": false,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+    },
+    {
+      "path" : "pages/training/training",
+      "style" :
+      {
+        "navigationBarTitleText": "教育培训",
+        "enablePullDownRefresh": false,
+        "navigationStyle":"custom",
+        "h5" : {
+          "titleNView":false
+        }
+      }
+    }
+  ,{
+      "path" : "pages/mypositionslist/mypositionslist",
+      "style" :
+      {
+        "navigationBarTitleText": "线下培训记录" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    },
+    {
+      "path" : "pages/webview/webview",
+      "style" :
+      {
+        "navigationBarTitleText": "数智群团",
+        "enablePullDownRefresh": false,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/myquntuan/myquntuan",
+      "style" :
+      {
+        "navigationBarTitleText": "我的群团" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/myquntuangk/myquntuangk",
+      "style" :
+      {
+        "navigationBarTitleText": "入群反馈" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/mydonations/mydonations",
+      "style" :
+      {
+        "navigationBarTitleText": "捐款记录" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/mydonationsjw/mydonationsjw",
+      "style" :
+      {
+        "navigationBarTitleText": "捐物记录",
+        "enablePullDownRefresh": false,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/newsDetail/newsDetail",
+      "style" :
+      {
+        "navigationBarTitleText": "群团集市-风采展示" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/mypositions/mypositions",
+      "style" :
+      {
+        "navigationBarTitleText": "阵地申请记录" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/mypositionslog/mypositionslog",
+      "style" :
+      {
+        "navigationBarTitleText": "阵地评价" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/myactivity/myactivity",
+      "style" :
+      {
+        "navigationBarTitleText": "我参加的活动" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/advice/advice",
+      "style" :
+      {
+        "navigationBarTitleText": "我要参与" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/Rightshelping/Rightshelping",
+      "style" :
+      {
+        "navigationBarTitleText": "服务集市" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/alliance/alliance",
+      "style" :
+      {
+        "navigationBarTitleText": "加入群团" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  
+  ,{
+      "path" : "pages/reservationzd/reservationzd",
+      "style" :
+      {
+        "navigationBarTitleText": "阵地预约" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/teacherappointment/teacherappointment",
+      "style" :
+      {
+        "navigationBarTitleText": "预约名师" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/datingactivities/datingactivities",
+      "style" :
+      {
+        "navigationBarTitleText": "交友联谊" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/myqd/myqd",
+      "style" :
+      {
+        "navigationBarTitleText": "活动签到" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/myevaluation/myevaluation",
+      "style" :
+      {
+        "navigationBarTitleText": "评价" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/throughtrain/throughtrain",
+      "style" :
+      {
+        "navigationBarTitleText": "惠民直达" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/enterprise/enterprise",
+      "style" :
+      {
+        "navigationBarTitleText": "企业认证" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/support/support",
+      "style" :
+      {
+        "navigationBarTitleText": "我要参与" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/dedication/dedication",
+      "style" :
+      {
+        "navigationBarTitleText": "我来奉献" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/addactivity/addactivity",
+      "style" :
+      {
+        "navigationBarTitleText": "我要发布活动" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/fellowship/fellowship",
+      "style" :
+      {
+        "navigationBarTitleText": "组织联谊" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/frontList/frontList",
+      "style" :
+      {
+        "navigationBarTitleText": "阵地列表" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/front/front",
+      "style" :
+      {
+        "navigationBarTitleText": "群团阵地" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/frontReservation/frontReservation",
+      "style" :
+      {
+        "navigationBarTitleText": "阵地预约" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/myfront/myfront",
+      "style" :
+      {
+        "navigationBarTitleText": "我的阵地使用记录" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/voteList/voteList",
+      "style" :
+      {
+        "navigationBarTitleText": "投票列表" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/vote/vote",
+      "style" :
+      {
+        "navigationBarTitleText": "候选信息" ,
+        "h5" : {
+          "titleNView":false
+        }
+      }
+      
+    }
+  ,{
+      "path" : "pages/activitySearch/activitySearch",
+      "style" :
+      {
+        "navigationBarTitleText": "搜索"
+      }
+      
+    }
+  ,{
+      "path" : "pages/activityDetail/activityDetail",
+      "style" :
+      {
+        "navigationBarTitleText": "活动详情"
+      }
+      
+    }
+  ,{
+      "path" : "pages/activityReservation/activityReservation",
+      "style" :
+      {
+        "navigationBarTitleText": "活动预约"
+      }
+      
+    }
+  ,{
+      "path" : "pages/dedicate/dedicate",
+      "style" :
+      {
+        "navigationBarTitleText": "我来奉献"
+      }
+      
+    }
+  ,{
+      "path" : "pages/me-call/me-call",
+      "style" :
+      {
+        "navigationBarTitleText": "你呼我应"
+      }
+      
+    }
+  ,{
+      "path" : "pages/myHelp/myHelp",
+      "style" :
+      {
+        "navigationBarTitleText": ""
+      }
+      
+    }
+  ,{
+      "path" : "pages/robot/robot",
+      "style" :
+      {
+        "navigationBarTitleText": "在线交流"
+      }
+      
+    }
+  ,{
+      "path" : "pages/classificationSearch/classificationSearch",
+      "style" :
+      {
+        "navigationBarTitleText": "分类检索"
+      }
+      
+    }
+  ,{
+      "path" : "pages/grabBenefits/grabBenefits",
+      "style" :
+      {
+        "navigationBarTitleText": "抢福利"
+      }
+      
+    }
+  ,{
+      "path" : "pages/partyGroupService/partyGroupService",
+      "style" :
+      {
+        "navigationBarTitleText": "党群服务"
+      }
+      
+    }
+  ,{
+      "path" : "pages/liveVideo/liveVideo",
+      "style" :
+      {
+        "navigationBarTitleText": "视频直播"
+      }
+      
+    }
+  ,{
+      "path" : "pages/welfareActivities/welfareActivities",
+      "style" :
+      {
+        "navigationBarTitleText": "我的福利"
+      }
+      
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "智慧群团",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  }
+}

@@ -54,6 +54,7 @@ module.exports = {
     [
       '@vue/app',
       {
+        modules: 'commonjs',
         useBuiltIns: process.env.UNI_PLATFORM === 'h5' ? 'usage' : 'entry'
       }
     ]

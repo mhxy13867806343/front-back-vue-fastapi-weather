@@ -1,0 +1,40 @@
+{
+  "devDependencies": {
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.28.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^7.11.1",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0"
+  },
+  "scripts": {
+    "lint:eslint": "eslint --fix --ext \"src/**/*.{vue,less,css,scss}\"",
+    "lint:prettier": "prettier --write --loglevel warn \"src/**/*.{js,json,tsx,css,less,scss,vue,html,md}\"",
+    "lint:stylelint": "stylelint --fix \"**/*.{vue,less,postcss,css,scss}\" --cache --cache-location node_modules/.cache/stylelint/",
+    "gc": "git add -A && git-cz && git pull && git push",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "dependencies": {
+    "moment": "^2.29.1",
+    "nativeshare": "^2.1.5",
+    "sortable": "^2.0.0",
+    "sortablejs": "^1.14.0",
+    "vuedraggable": "^2.24.3",
+    "lodash": "^4.17.15",
+    "vue-clipboard2": "^0.3.3",
+    "qs": "^6.10.3"
+  }
+}

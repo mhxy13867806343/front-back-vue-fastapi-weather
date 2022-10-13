@@ -1,4 +1,4 @@
-# fentwater
+# my-project
 
 ## Project setup
 ```
