@@ -1,1 +1,2 @@
 from .weather import Weather_Pydantic,WeatherIn_Pydantic
+from .translation import Translation_Pydantic,TranslationIn_Pydantic
